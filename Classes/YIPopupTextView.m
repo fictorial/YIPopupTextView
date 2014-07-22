@@ -225,7 +225,7 @@ typedef enum {
         _backgroundView.alpha = 0;
         _backgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         
-        _popupView = [[UIView alloc] initWithFrame:CGRectMake(0, 20, 320, 240)];
+        _popupView = [[UIView alloc] initWithFrame:CGRectMake(0, 20, 320, 220)];
         _popupView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         [_backgroundView addSubview:_popupView];
         
